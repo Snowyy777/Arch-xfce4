@@ -25,7 +25,7 @@ mv /usr/bin/pacman /usr/bin/pacman-real
 
 cat > /usr/bin/pacman <<'EOF'
 #!/bin/bash
-/usr/bin/pacman-real --disable-sandbox "$@"
+/usr/bin/pacman-real --disable-sandbox "\$@"
 EOF
 
 chmod +x /usr/bin/pacman
