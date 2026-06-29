@@ -37,7 +37,7 @@ pacman -S --noconfirm sudo
 useradd -m -G wheel Snowyy
 echo "Snowyy:10109999aa" | chpasswd
 sed -i '/^root ALL=(ALL:ALL) ALL$/a Snowyy ALL=(ALL:ALL) ALL' /etc/sudoers"
-wget -0 https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/refs/heads/main/scripts/proot_arch/startxfce4_arch.sh
+wget -O https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/refs/heads/main/scripts/proot_arch/startxfce4_arch.sh
 sed -i 's/droidmaster/Snowyy/g' startxfce4_arch.sh
 chmod +x startxfce4_arch.sh
 ./startxfce4_arch.sh
