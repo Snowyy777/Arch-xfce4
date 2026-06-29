@@ -4,7 +4,7 @@ Instalador automático de Arch + XFCE4 para Termux.
 
 ## 🚀 **Instalação**
 
-Execute os comandos abaixo no Termux:
+Execute o comando abaixo no Termux:
 
 ```bash
 pkg install wget -y && wget https://raw.githubusercontent.com/Snowyy777/Arch-xfce4/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
