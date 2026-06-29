@@ -18,9 +18,8 @@ After installation:
 ```bash
 ./startxfce4_arch.sh
 ```
-## Credits
+##Credits
 
-This project uses some commands and ideas from:
-- droidmaster's repository: [https://github.com/LinuxDroidMaster/Termux-Desktops]
+This project uses the `startxfce4_arch.sh` script from LinuxDroidMaster's Termux-Desktops repository.
 
-Thanks to droidmaster for providing the base commands and resources used in this project.
+Credits to LinuxDroidMaster for the XFCE4 startup script.
