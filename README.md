@@ -21,6 +21,6 @@ After installation:
 ## Credits
 
 This project uses some commands and ideas from:
-- droidmaster's repository: [link do repositório]
+- droidmaster's repository: [https://github.com/LinuxDroidMaster/Termux-Desktops]
 
 Thanks to droidmaster for providing the base commands and resources used in this project.
