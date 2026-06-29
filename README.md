@@ -18,3 +18,9 @@ After installation:
 ```bash
 ./startxfce4_arch.sh
 ```
+## Credits
+
+This project uses some commands and ideas from:
+- droidmaster's repository: [link do repositório]
+
+Thanks to droidmaster for providing the base commands and resources used in this project.
