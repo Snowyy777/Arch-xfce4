@@ -20,6 +20,7 @@ pkg install proot-distro -y
 proot-distro install danhunsaker/archlinuxarm:20260517
 proot-distro login archlinuxarm -- bash -c "
 sed -i 's/^#DownloadUser = alpm/DownloadUser = alpm/' /etc/pacman.conf
+alias pacman='pacman --disable-sandbox'
 pacman -Sy
 echo -e '1\ny' | pacman -Syu
 pacman -S --needed --noconfirm xfce4
