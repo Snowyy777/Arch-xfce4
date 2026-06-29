@@ -15,5 +15,6 @@ pkg install wget -y && wget https://raw.githubusercontent.com/Snowyy777/Arch-xfc
 ## ▶️ How to start
 
 After installation:
-
+```bash
 ./startxfce4_arch.sh
+```
