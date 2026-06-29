@@ -17,7 +17,7 @@ pkg install pulseaudio -y
 pkg install x11-repo -y
 pkg install termux-x11-nightly -y
 pkg install proot-distro -y
-proot-distro install archlinuxarm
+proot-distro install danhunsaker/archlinuxarm:20260517
 proot-distro login archlinuxarm -- bash -c "
 sed -i 's/^#DownloadUser = alpm/DownloadUser = alpm/' /etc/pacman.conf
 pacman -Sy
